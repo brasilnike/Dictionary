@@ -1,0 +1,49 @@
+﻿<Window x:Class="Dictionar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dictionar"
+        xmlns:views="clr-namespace:Dictionar.Views"
+        xmlns:viewModels="clr-namespace:Dictionar.ViewModels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Name="modAdministrativTemplate" DataType="{x:Type viewModels:ModAdministrativViewModel}">
+            <views:ModAdministrativ DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="modCautareCuvinteTemplate" DataType="{x:Type viewModels:ModCautareCuvinteViewModel}">
+            <views:ModCautareCuvinte DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="modDivertismentTemplate" DataType="{x:Type viewModels:ModDivertismentViewModel}">
+            <views:ModDivertisment DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="5" Background="Gray">
+            <StackPanel>
+                <Image Source="/Resources/logoDex.png" />
+                <Button Click="ModAdministrativView_Clicked">Mod Administrativ</Button>
+                <Button Click="ModCautareCuvinteView_Clicked">Mod de Cautare Cuvinte</Button>
+                <Button Click="ModDivertisment_Clicked">Mod de Divertisment</Button>
+
+            </StackPanel>
+        </DockPanel>
+        <ContentControl Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" Grid.RowSpan="5" Content="{Binding}"/>
+    </Grid>
+</Window>

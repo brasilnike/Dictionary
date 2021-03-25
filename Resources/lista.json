@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "Nume": "Mar",
+    "Descriere": "Fruct verde/rosu/galben foarte des intalnit si in Romania ",
+    "Categorie": "Fruct",
+    "Imagine": "/Resources/mar.jpg"
+  },
+  {
+    "Id": 2,
+    "Nume": "Laptop",
+    "Descriere": "Personal computer portabil",
+    "Categorie": "Tehnologie/IT",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\laptop.jpg"
+  },
+  {
+    "Id": 3,
+    "Nume": "Para",
+    "Descriere": "Fruct galben/verzui ",
+    "Categorie": "Fruct",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\para.jpg"
+  },
+  {
+    "Id": 7,
+    "Nume": "Portocala",
+    "Descriere": "este un fruct din genul Citrus, care face parte din familia Rutaceae",
+    "Categorie": "Fruct",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\portocala.jpg"
+  },
+  {
+    "Id": 9,
+    "Nume": "Banana",
+    "Descriere": "este un fruct alungit, comestibil – din punct de vedere botanic o bacă – produsă de anumite specii erbacee din genul Musa.",
+    "Categorie": "Fruct",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\banana.jpg"
+  },
+  {
+    "Id": 8,
+    "Nume": "Lamaie",
+    "Descriere": "Fructul copt are forma sferică alungită și coaja în culori care variază de la verde deschis la galben strălucitor.",
+    "Categorie": "Fruct",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\lamaie.jpg"
+  },
+  {
+    "Id": 4,
+    "Nume": "Gutui",
+    "Descriere": "este o bacă falsă, acoperită de un puf cafeniu.",
+    "Categorie": "Fruct",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\gutui.jpg"
+  },
+  {
+    "Id": 10,
+    "Nume": "Penar",
+    "Descriere": "cutiuță dreptunghiulară în care elevii își poartă accesoriile pentru scris.",
+    "Categorie": "Pepetarie",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\penar.jpg"
+  },
+  {
+    "Id": 11,
+    "Nume": "Placa Video",
+    "Descriere": "este un card de expansiune a cărui funcție este de a genera imagini către un monitor.",
+    "Categorie": "Tehnologie/IT",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\placa video.jpg"
+  },
+  {
+    "Id": 12,
+    "Nume": "Memorie RAM",
+    "Descriere": "este denumirea generică pentru orice tip de memorie de calculator care:",
+    "Categorie": "Tehnologie/IT",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\memorie RAM.jpg"
+  },
+  {
+    "Id": 13,
+    "Nume": "Smartphone",
+    "Descriere": "este un telefon mobil multimedia multifuncțional, conectat la o rețea GSM sau UMTS.",
+    "Categorie": "Tehnologie/IT",
+    "Imagine": "C:\\Users\\dany_\\Downloads\\smartphone.jpg"
+  }
+]
